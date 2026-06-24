@@ -1090,31 +1090,3 @@ select:focus {
   color: #9e2424;
 }
 
-.bottom-study-actions {
-  position: sticky;
-  bottom: 0;
-  z-index: 20;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.65rem;
-  margin-top: 1.25rem;
-  padding: 1rem;
-  border: 1px solid var(--line);
-  border-radius: 18px 18px 0 0;
-  background: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 -10px 24px rgba(22, 44, 70, 0.08);
-  backdrop-filter: blur(8px);
-}
-
-.bottom-study-actions button {
-  min-width: 120px;
-}
-
-body.create-mode .bottom-study-actions {
-  display: none;
-}
-
-body.study-mode .bottom-study-actions {
-  display: flex;
-}
